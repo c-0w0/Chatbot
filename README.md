@@ -26,12 +26,12 @@ uv run sync
 
 4. Run agent.py (the one in `uv\src\prototype1_CLI`/`uv\src\prototype2_WebIntegration`) via VSC UI
 
-### In `web`, run:
+5. In `web`, run:
 ```
 php artisan serve
 ```
 
-5. Visit the webpage
+6. Visit the webpage
 http://127.0.0.1:8000/
 
 ## Screenshot
