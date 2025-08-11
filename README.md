@@ -44,3 +44,6 @@ http://127.0.0.1:8000/
 ## Screenshot
 <img width="1855" height="1019" alt="image" src="https://github.com/user-attachments/assets/922528d6-f4a7-42f8-bbaa-2cbfe45bfae4" />
 
+## Pending Tasks
+1. Implement Vector Database to arm the chatbot with knowledge(dataset) given
+2. Optimize server parameter syntax 
