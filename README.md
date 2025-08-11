@@ -1,6 +1,13 @@
 ## Introduction
 Development of Chatbot using MCP servers (and pending: locally defined tools), in Laravel (MVC) framework.
 
+## Characters
+| Body    | Actor |
+| :--------: | :-------: |
+| LLM | Gemini-2.5-pro    |
+| AI Agent | Pydantic-AI     |
+| MCP Server    | [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch), [FileSystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)    |
+
 ## Protoypes
 The prototypes below are the progression of the chatbot development, they can be found at `uv\src`
 - `prototype1_CLI`
