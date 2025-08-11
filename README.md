@@ -17,13 +17,13 @@ The prototypes below are the progression of the chatbot development, they can be
 - For `prototype1_CLI`, follow step1-4
 - For `prototype2_WebIntegration`, follow all the steps below
 
-1. Create `.env` file in `uv` folder
+1. In `uv` folder, create `.env` file 
 ```
 LOGFIRE_TOKEN = 
 GEMINI_API_KEY = 
 ```
 
-2. Create virtual environment and install python package dependencies
+2. In `uv` folder, create virtual environment and install python package dependencies
 ```
 uv run sync
 ```
