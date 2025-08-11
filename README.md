@@ -1,35 +1,37 @@
 ## Introduction
-Development of Chatbot using MCP servers (and pending: locally defined tools), in the Laravel framework.
+Development of Chatbot using MCP servers (and pending: locally defined tools), in Laravel (MVC) framework.
 
 ## Protoypes
 The prototypes below are the progression of the chatbot development, they can be found at `uv\src`
 - `prototype1_CLI`
 - `prototype2_WebIntegration`
 
-## How to use `prototype2_WebIntegration`
-- `prototype1_CLI` manual can be found in `uv\src\prototype1_CLI` (will be uploaded later)
-### Create `.env` file in `uv` folder
+## How to use 
+- For `prototype1_CLI`, follow step1-4
+- For `prototype2_WebIntegration`, follow all the steps below
+
+1. Create `.env` file in `uv` folder
 ```
 LOGFIRE_TOKEN = 
 GEMINI_API_KEY = 
 ```
 
-### Create virtual environment and install python package dependencies
+2. Create virtual environment and install python package dependencies
 ```
 uv run sync
 ```
 
-### At the root (the directory contains `uv` and `web`), open the project in VSC
+3. At the root (the directory contains `uv` and `web`), open the project in VSC
 `Ctrl + Shift + P` -> `Python: Select Interpreter` -> `Enter Interpreter Path` -> Find...(Browse) -> `uv\.venv\Scripts\python.exe`
 
-### Run agent.py via VSC UI
+4. Run agent.py (the one in `uv\src\prototype1_CLI`/`uv\src\prototype2_WebIntegration`) via VSC UI
 
 ### In `web`, run:
 ```
 php artisan serve
 ```
 
-### Visit the webpage
+5. Visit the webpage
 http://127.0.0.1:8000/
 
 ## Screenshot
