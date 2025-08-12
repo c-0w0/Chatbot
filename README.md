@@ -14,6 +14,12 @@ The prototypes below are the progression of the chatbot development, they can be
 - `prototype2_WebIntegration`
 
 ## How to use 
+### Prerequisites
+- uv
+- Composer
+- npx
+
+### Steps
 - For `prototype1_CLI`, follow step1-4
 - For `prototype2_WebIntegration`, follow all the steps below
 
