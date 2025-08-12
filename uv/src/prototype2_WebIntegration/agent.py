@@ -17,7 +17,7 @@ app = FastAPI()
 class ChatAgent:
     def __init__(self):
         self.agent = Agent(
-            model='gemini-2.5-pro',
+            model='gemini-2.0-flash',
             instrument=True,
             system_prompt="An agent designed for customer service of a hotel.",
             instructions="""Do follow the below procedures when a customer **first** approaches and have any inquiries.
